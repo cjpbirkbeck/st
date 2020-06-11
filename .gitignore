@@ -2,3 +2,4 @@
 *.orig
 result
 default.nix
+tags
