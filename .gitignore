@@ -1,5 +1,5 @@
 *.rej
 *.orig
-result
+result*
 default.nix
 tags
