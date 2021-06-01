@@ -29,6 +29,7 @@ The following patches have been applied to vanilla st 0.8.3:
 * [OSC-10-11-12]( ./applied/st-osc_10_11_12-20200418-66520e1.diff ): Enables those escape codes for modifying the background colours.
 * [Scrollback]( ./applied/st-scrollback-20200419-72e3f6c.diff ): Enable a scrollback buffer by default …
 * [Scrollback mouse]( ./applied/st-scrollback-mouse-20191024-a2c479c.diff ): … and allow it to scroll that buffer with the scrollwheel (or buttons in the case of trackpoint). Note that I have disable the middle click and made scrolling with the scrollwheel default, without needing to press shift.
+* [Undercurl](./applied/st-undercurl-0.8.4.diff): This patch adds support for curly underlining, such as vim's spelling correction.
 * [Vertcenter]( ./applied/st-vertcenter-20180320-6ac8c8a.diff ): Center oversized lines horizontally.
 * [Workingdir]( ./applied/st-workingdir-20200317-51e19ea.diff ): Specify a working directory with `-d [path]`. Path can be absolute or relative.
 
