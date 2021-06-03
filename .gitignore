@@ -3,3 +3,4 @@
 result*
 default.nix
 tags
+nix/*
