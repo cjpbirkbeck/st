@@ -48,6 +48,10 @@ typedef struct {
 	signed char appcursor; /* application cursor */
 } Key;
 
+/* Message */
+
+#define PATCH_MSG " with patches applied: alpha focus highlight, anysize, blinking cursor, boxdraw, clipboard, font2, netwmicon, newterm, osc-10-11-12, scrollback, scrollback mouse, themed cursor, undercurl, vertcenter, workingdir. See https://st.suckless.org/patches/ for more details."
+
 /* X modifiers */
 #define XK_ANY_MOD    UINT_MAX
 #define XK_NO_MOD     0
@@ -2288,9 +2292,9 @@ main(int argc, char *argv[])
 	case 'v':
 		die("%s " VERSION "\n", argv0);
 		break;
-	// This is really be a seperate string stored elsewhere.
+	// Keep track of what patches have been applied.
 	case 'V':
-		die("%s %s " VERSION " with patches applied: alpha focus highlight, anysize, blinking cursor, boxdraw, clipboard, font2, netwmicon, newterm, osc-10-11-12, scrollback, scrollback mouse, themed cursor, undercurl, vertcenter, workingdir. See https://st.suckless.org/patches/ for more details." "\n", argv0);
+		die("%s %s " VERSION PATCH_MSG "\n", argv0);
 		break;
 	case 'd':
 		opt_dir = EARGF(usage());
