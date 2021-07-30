@@ -18,6 +18,7 @@ Afterwards enter the following command to build and install st (if necessary as 
 The following patches have been applied to vanilla st 0.8.3:
 
 * [Alpha Focus Highlight]( ./applied/st-alphaFocusHighlight-20200216-26cdfeb.diff ): If a compositor like [picom](http://github.com/yshui/picom) is enabled, a terminal with focus will have a set opacity, while all others will have another opacity.
+* [Anygeomtry](./applied/st-anygeometry-0.8.1.diff): Set st window sizes by pixel size.
 * [Anysize]( ./applied/st-anysize-0.8.1.diff ): Dynamically set the inner border size and centers the terminal if the windows is not a multiple of the character size and inner border size.
 * [Blinking cursor]( ./applied/st-blinking_cursor-20200531-a2a7044.diff ): Makes the cursor blink, like the terminal of yore.
 * [Boxdraw]( ./applied/st-boxdraw_v2-0.8.3.diff ): Allows for the drawing of Unicode line characters, allowing programs like tmux to draw lines without gaps.
@@ -36,6 +37,17 @@ The following patches have been applied to vanilla st 0.8.3:
 ## Theming
 
 Colours come from the [Oceanic Material](https://github.com/rahulpatel/oceanic-material-iterm) theme from [iTerm2 Color Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/). Specifically, it comes from conversion the termite theme with [terminal.sexy](https://www.terminal.sexy)
+
+|Colours|Normal|Bright|
+|---|---|---|
+|Black|"#000000"|"#777777"|
+|Read| "#ee2b2a"|"#dc5c60"|
+|Green|"#40a33f"|"#70be71"|
+|Yellow|"#ffea2e"|"#fff163"|
+|Blue| "#1e80f0"|"#54a4f3"|
+|Magenta|"#8800a0"|"#aa4dbc"|
+|Cyan| "#16afca"|"#42c7da"|
+|White|"#a4a4a4"|"#ffffff"|
 
 # Running st
 
