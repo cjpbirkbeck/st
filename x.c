@@ -50,7 +50,7 @@ typedef struct {
 
 /* Message */
 
-#define PATCH_MSG " with patches applied: alpha focus highlight, anysize, blinking cursor, boxdraw, clipboard, font2, netwmicon, newterm, osc-10-11-12, scrollback, scrollback mouse, themed cursor, undercurl, vertcenter, workingdir. See https://st.suckless.org/patches/ for more details."
+#define PATCH_MSG VERSION " with patches applied: alpha focus highlight, anysize, blinking cursor, boxdraw, clipboard, font2, netwmicon, newterm, osc-10-11-12, scrollback, scrollback mouse, themed cursor, undercurl, vertcenter, workingdir. See https://st.suckless.org/patches/ for more details."
 
 /* X modifiers */
 #define XK_ANY_MOD    UINT_MAX
@@ -2294,7 +2294,7 @@ main(int argc, char *argv[])
 		break;
 	// Keep track of what patches have been applied.
 	case 'V':
-		die("%s %s " VERSION PATCH_MSG "\n", argv0);
+		die("%s " PATCH_MSG "\n", argv0);
 		break;
 	case 'd':
 		opt_dir = EARGF(usage());
