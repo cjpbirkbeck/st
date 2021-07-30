@@ -1282,7 +1282,7 @@ xinit(int w, int h)
 		win.w = 2 * borderpx + w * win.cw;
 		win.h = 2 * borderpx + h * win.ch;
 	        break;
-	    case CellGeometry:
+	    case PixelGeometry:
 		win.w = w;
 		win.h = h;
 	        break;
