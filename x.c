@@ -2248,12 +2248,12 @@ void
 usage(void)
 {
 	die("usage: %s [-aivV] [-c class] [-d path] [-f font]"
-	    " [-g geometry] [-n name] [-o file]\n"
-	    "          [-T title] [-t title] [-w windowid]"
+	    " [-g geometry] [-G geometry] [-n name] \n"
+	    "          [-o file] [-T title] [-t title] [-w windowid]"
 	    " [[-e] command [args ...]]\n"
 	    "       %s [-aivV] [-c class] [-d path] [-f font]"
-	    " [-g geometry] [-n name] [-o file]\n"
-	    "          [-T title] [-t title] [-w windowid] -l line"
+	    " [-g geometry] [-G geometry] [-n name] \n"
+	    "          [-o file] [-T title] [-t title] [-w windowid] -l line"
 	    " [stty_args ...]\n", argv0, argv0);
 }
 

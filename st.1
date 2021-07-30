@@ -12,6 +12,8 @@ st \- simple terminal
 .IR font ]
 .RB [ \-g
 .IR geometry ]
+.RB [ \-G
+.IR geometry ]
 .RB [ \-n
 .IR name ]
 .RB [ \-o
@@ -37,6 +39,8 @@ st \- simple terminal
 .RB [ \-f
 .IR font ]
 .RB [ \-g
+.IR geometry ]
+.RB [ \-G
 .IR geometry ]
 .RB [ \-n
 .IR name ]
@@ -76,6 +80,10 @@ defines the X11 geometry string.
 The form is [=][<cols>{xX}<rows>][{+-}<xoffset>{+-}<yoffset>]. See
 .BR XParseGeometry (3)
 for further details.
+.TP
+.BI \-G " geometry"
+define st window size by number of pixels instead of cells.
+The form is [width[xheight]].
 .TP
 .B \-i
 will fixate the position given with the -g option.
