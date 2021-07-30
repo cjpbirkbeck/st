@@ -40,14 +40,17 @@ Colours come from the [Oceanic Material](https://github.com/rahulpatel/oceanic-m
 
 |Colours|Normal|Bright|
 |---|---|---|
-|Black|"#000000"|"#777777"|
-|Read| "#ee2b2a"|"#dc5c60"|
-|Green|"#40a33f"|"#70be71"|
-|Yellow|"#ffea2e"|"#fff163"|
-|Blue| "#1e80f0"|"#54a4f3"|
-|Magenta|"#8800a0"|"#aa4dbc"|
-|Cyan| "#16afca"|"#42c7da"|
-|White|"#a4a4a4"|"#ffffff"|
+|Black| `#000000`|`#777777`|
+|Read| `#ee2b2a`|`#dc5c60`|
+|Green| `#40a33f`|`#70be71`|
+|Yellow| `#ffea2e`|`#fff163`|
+|Blue|  `#1e80f0`|`#54a4f3`|
+|Magenta| `#8800a0`|`#aa4dbc`|
+|Cyan|  `#16afca`|`#42c7da`|
+|White| `#a4a4a4`|`#ffffff`|
+
+Background = `#1c262b`
+Foreground = `#c2c8d7`
 
 # Running st
 
