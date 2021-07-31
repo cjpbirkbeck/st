@@ -48,10 +48,6 @@ typedef struct {
 	signed char appcursor; /* application cursor */
 } Key;
 
-/* Message */
-
-#define PATCH_MSG VERSION " with patches applied: alpha focus highlight, anygeometry, anysize, blinking cursor, boxdraw, clipboard, font2, netwmicon, newterm, osc-10-11-12, scrollback, scrollback mouse, themed cursor, undercurl, vertcenter, workingdir. See https://st.suckless.org/patches/ for more details."
-
 typedef enum {
 	PixelGeometry,
 	CellGeometry
@@ -2257,6 +2253,18 @@ usage(void)
 	    " [stty_args ...]\n", argv0, argv0);
 }
 
+void
+full_version(void)
+{
+	die("st " VERSION " with the following patches:\n"
+	    "alpha focus highlight, anygeometry, anysize, blinking cursor,\n"
+	    "boxdraw, clipboard, font2, netwmicon, newterm, osc-10-11-12,\n"
+	    "scrollback, scrollback mouse, themed cursor, undercurl, \n"
+	    "vertcenter, workingdir.\n"
+	    "See https://st.suckless.org/patches/ for more details.\n", argv0, argv0 );
+}
+
+
 int
 main(int argc, char *argv[])
 {
@@ -2315,7 +2323,7 @@ main(int argc, char *argv[])
 		break;
 	// Keep track of what patches have been applied.
 	case 'V':
-		die("%s " PATCH_MSG "\n", argv0);
+		full_version();
 		break;
 	case 'd':
 		opt_dir = EARGF(usage());
