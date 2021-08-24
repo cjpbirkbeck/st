@@ -93,6 +93,7 @@ The following patches have been applied to vanilla st 0.8.3:
 * [Anygeomtry](./applied/st-anygeometry-0.8.1.diff): Set st window sizes by pixel size, with the argument `-G [width[xheight]]`.
 * [Anysize]( ./applied/st-anysize-0.8.1.diff ): Dynamically set the inner border size and centers the terminal if the windows is not a multiple of the character size and inner border size. Useful for users of tiling window managers like [dwm](https://dwm.suckless.org), [awesomewm](https://www.awesomewm.org), [i3wm](https://i3wm.org), etc.
 * [Blinking cursor]( ./applied/st-blinking_cursor-20200531-a2a7044.diff ): Makes the cursor blink, like the terminals of yore.
+* [Bold is not bright](./applied/st-bold-is-not-bright-20190127-3be4cf1.diff): Render bold text as bold only, not as bright colours.
 * [Boxdraw]( ./applied/st-boxdraw_v2-0.8.3.diff ): Allows for the drawing of Unicode line characters, allowing programs like tmux to draw lines without gaps.
 * [Clipboard]( ./applied/st-clipboard-0.8.3.diff ): Use Xorg's clipboard, not primary.
 * [Font2]( ./applied/st-font2-20190416-ba72400.diff ): Allows for different fonts to be used as "backup". Currently, I have not enabled any so far.
@@ -149,6 +150,7 @@ Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 * [Anygeomtry](./applied/st-anygeometry-0.8.1.diff): José Miguel Sánchez García
 * [Anysize]( ./applied/st-anysize-0.8.1.diff ): Augusto Born de Oliveira
 * [Blinking cursor]( ./applied/st-blinking_cursor-20200531-a2a7044.diff ): Genki Sky, Steve Ward, jvden
+* [Bold is not bright](./applied/st-bold-is-not-bright-20190127-3be4cf1.diff): Raphaël Proust
 * [Boxdraw]( ./applied/st-boxdraw_v2-0.8.3.diff ): [Avi Halachmi](https://github.com/avih)
 * [Clipboard]( ./applied/st-clipboard-0.8.3.diff ): Kai Hendry, Laslo Hunhold, Matthew Parnell
 * [Font2]( ./applied/st-font2-20190416-ba72400.diff ): Kirill Bugaev
