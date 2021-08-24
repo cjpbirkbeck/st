@@ -118,24 +118,24 @@ float alphaUnfocussed = 0.85; //< alpha value used when the focus is lost
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
   /* 8 normal colors */
-  [0] = "#000000", /* black   */
-  [1] = "#ee2b2a", /* red     */
-  [2] = "#40a33f", /* green   */
-  [3] = "#ffea2e", /* yellow  */
-  [4] = "#1e80f0", /* blue    */
-  [5] = "#8800a0", /* magenta */
-  [6] = "#16afca", /* cyan    */
-  [7] = "#a4a4a4", /* white   */
+  [0] = "#000000", /* Black   */
+  [1] = "#ee2b2a", /* Red     */
+  [2] = "#40a33f", /* Green   */
+  [3] = "#ffea2e", /* Yellow  */
+  [4] = "#1e80f0", /* Blue    */
+  [5] = "#c900ed", /* Magenta */
+  [6] = "#16afca", /* Cyan    */
+  [7] = "#e3e3e3", /* White   */
 
   /* 8 bright colors */
-  [8]  = "#777777", /* black   */
-  [9]  = "#dc5c60", /* red     */
-  [10] = "#70be71", /* green   */
-  [11] = "#fff163", /* yellow  */
-  [12] = "#54a4f3", /* blue    */
-  [13] = "#aa4dbc", /* magenta */
-  [14] = "#42c7da", /* cyan    */
-  [15] = "#ffffff", /* white   */
+  [8]  = "#777777", /* Black   */
+  [9]  = "#dc5c60", /* Red     */
+  [10] = "#70be71", /* Green   */
+  [11] = "#fff163", /* Yellow  */
+  [12] = "#54a4f3", /* Blue    */
+  [13] = "#aa4dbc", /* Magenta */
+  [14] = "#42c7da", /* Cyan    */
+  [15] = "#ffffff", /* White   */
 
   [255] = 0,
 
