@@ -111,7 +111,7 @@ The following patches have been applied to vanilla st 0.8.3:
 
 Colours are based off of the [Oceanic Material](https://github.com/rahulpatel/oceanic-material-iterm) theme from [iTerm2 Color Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/). Specifically, it comes from a conversion the termite theme with [terminal.sexy](https://www.terminal.sexy).
 
-Not that I have changed some of the colours to be easier to read. Specifically, color5 (normal Magenta) was originally `#8800a0` and color7 (normal White) was `#a4a4a4`.
+Not that I have changed some of the colours to be easier to read. Specifically, color5 (normal Magenta) was originally `#8800a0` and color7 (normal White) was `#a4a4a4` and color13 (bright Magenta) was originally `#aa4abc`.
 
 |Colours|  Normal   |  Bright   |
 |-------|-----------|-----------|
@@ -120,7 +120,7 @@ Not that I have changed some of the colours to be easier to read. Specifically, 
 |Green  | `#40a33f` | `#70be71` |
 |Yellow | `#ffea2e` | `#fff163` |
 |Blue   | `#1e80f0` | `#54a4f3` |
-|Magenta| `#c900ed` | `#aa4dbc` |
+|Magenta| `#c900ed` | `#C585d1` |
 |Cyan   | `#16afca` | `#42c7da` |
 |White  | `#e3e3e3` | `#ffffff` |
 
